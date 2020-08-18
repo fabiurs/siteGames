@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-image: url(imagini/bkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+canvas{
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+a{
+    margin: 200px;
+    background-color: #bfc9dc;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #0d043c;
+    transition: 1s;
+    border-radius: 15px;
+    border: 2px solid #55083a;
+}
+
+a:hover{
+    background-color: #0d043c;
+    font-size: 40px;
+    color: #cc1061;
+    border: 2px dashed white;
+}
+
+
+div.pag{
+    margin: 100px;
+    height: 500px;
+}
+
+div.prim{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(191, 201, 220, 0.3);
+    width: 370px;
+    margin-top: 200px;
+    float: left;
+    transition: 0.7s;
+}
+div.prim:hover{
+    background-color: rgb(191, 201, 220, 0.5);
+    padding: 10px;
+}
+
+div.secund{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(93, 178, 233, 0.3);
+    width: 370px;
+    margin-top: 200px;
+    float: right;
+    transition: 0.7s;
+}
+
+div.secund:hover{
+    background-color: rgb(93, 178, 233, 0.5);
+    padding: 10px;
+}
+
+p.info{
+    font-size: 20px;
+    color: white;
+}
+
+p.rules{
+    color: #bfc9dc;
+}
